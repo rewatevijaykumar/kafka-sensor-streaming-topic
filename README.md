@@ -2,6 +2,13 @@
 
 This repo help us to know how to publish and consume data to and from kafka confluent in json format
 
+## Producer - Flowchart
+<img src="assets/consumer_main.png" height="50%">
+
+## Consumer - Flowchart
+<img src="assets/consumer_main.png" height="50%">
+
+
 ## Step 1: Create conda environment
 ```
 conda create -p venv python==3.8 -y
@@ -71,8 +78,3 @@ docker build -t sensor-streaming-pipeline:latest .
 docker run -it -v $(pwd)/logs:/logs  --env-file=$(pwd)/.env sensor-streaming-pipeline:latest
 ```
 
-## Producer - Flowchart
-<img src="assets/consumer_main.png" height="50%">
-
-## Consumer - Flowchart
-<img src="assets/consumer_main.png" height="50%">
