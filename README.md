@@ -3,10 +3,10 @@
 This repo help us to know how to publish and consume data to and from kafka confluent in json format
 
 ## Producer - Flowchart
-<img src="assets/consumer_main.png" height="50%">
+<img src="assets/Producer_main.png" height="50%">
 
 ## Consumer - Flowchart
-<img src="assets/consumer_main.png" height="50%">
+<img src="assets/Consumer_main.png" height="50%">
 
 
 ## Step 1: Create conda environment
