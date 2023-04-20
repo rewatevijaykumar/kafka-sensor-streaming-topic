@@ -1,4 +1,4 @@
-pymongo==4.1.1
+pymongo[srv]==4.1.1
 confluent-kafka
 requests
 jsonschema==3.2.0
